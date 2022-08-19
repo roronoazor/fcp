@@ -1,0 +1,189 @@
+/* The CFI Group fonts */
+/* pt-sans-regular - latin */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('PT Sans'), local('PTSans-Regular'),
+		url('../fonts/pt-sans-v11-latin-regular.woff2') format('woff2'),
+		url('../fonts/pt-sans-v11-latin-regular.woff') format('woff');
+}
+
+/* pt-sans-700 - latin */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('PT Sans Bold'), local('PTSans-Bold'),
+		url('../fonts/pt-sans-v11-latin-700.woff2') format('woff2'),
+		url('../fonts/pt-sans-v11-latin-700.woff') format('woff');
+}
+
+/* pt-sans-italic - latin */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('PT Sans Italic'), local('PTSans-Italic'),
+		url('../fonts/pt-sans-v11-latin-italic.woff2') format('woff2'),
+		url('../fonts/pt-sans-v11-latin-italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/Flaticon.eot");
+	src: url("../fonts/Flaticon.eot#iefix") format("embedded-opentype"),
+		url("../fonts/Flaticon.woff") format("woff"),
+		url("../fonts/Flaticon.ttf") format("truetype"),
+		url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon_1.svg#Flaticon") format("svg");
+	}
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 0;
+}
+
+.flaticon-arrow-up:before {
+	content: "\f100";
+}
+
+.flaticon-arrow-down2:before {
+	content: "\f101";
+}
+
+.flaticon-prev:before {
+	content: "\f102";
+}
+
+.flaticon-next:before {
+	content: "\f103";
+}
+
+.flaticon-search:before {
+	content: "\f104";
+}
+
+.flaticon-arrow-down:before {
+	content: "\f105";
+}
+
+.flaticon-phone:before {
+	content: "\f106";
+}
+
+.flaticon-mail:before {
+	content: "\f107";
+}
+
+.flaticon-linkedin:before {
+	content: "\f108";
+}
+
+.flaticon-close:before {
+	content: "\f109";
+}
+
+.flaticon-building:before {
+	content: "\f10a";
+}
+
+@font-face {
+	font-family: 'CFI';
+	src: url('../fonts/CFI.eot');
+	src: url('../fonts/CFI.eot#iefix') format('embedded-opentype'),
+		url('../fonts/CFI.woff') format('woff'),
+		url('../fonts/CFI.ttf') format('truetype'),
+		url('../fonts/CFI.svg#CFI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="glyphicon-"]:before, [class*=" glyphicon-"]:before,
+[class^="glyphicon-"]:after, [class*=" glyphicon-"]:after {
+	font-family: 'CFI';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.glyphicon-aerospace:before {
+	content: '\0041';
+}
+
+.glyphicon-automotive:before {
+	content: '\0042';
+}
+
+.glyphicon-business:before {
+	content: '\0043';
+}
+
+.glyphicon-retail:before {
+	content: '\0044';
+}
+
+.glyphicon-eenr:before {
+	content: '\0045';
+}
+
+.glyphicon-fig:before {
+	content: '\0046';
+}
+
+.glyphicon-fba:before {
+	content: '\0047';
+}
+
+.glyphicon-healthcare:before {
+	content: '\0048';
+}
+
+.glyphicon-industrials:before {
+	content: '\0049';
+}
+
+.glyphicon-machinery:before {
+	content: '\004a';
+}
+
+.glyphicon-tmt:before {
+	content: '\004b';
+}
+
+.glyphicon-equity:before {
+	content: '\004c';
+}
+
+.glyphicon-chemicals:before {
+	content: '\004d';
+}
+
+.glyphicon-realestate:before {
+	content: '\004e';
+}
+
+.glyphicon-software-it:before {
+	content: '\004f';
+}
+
+.glyphicon-logistics:before {
+	content: '\0050';
+}
+
+.glyphicon-wpp:before {
+	content: '\0051';
+}
